@@ -1,0 +1,477 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WpfApp_satranc_1.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="Grid__zemin" Grid.Row="1" Margin="77,0,74,10" d:IsLocked="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <Border BorderBrush="Black" BorderThickness="3" Grid.RowSpan="8" Grid.ColumnSpan="8" Grid.Column="1" Grid.Row="1" CornerRadius="1"/>
+            <Rectangle   Grid.Column="1" Grid.Row="1" Stroke="Black" Margin="2,2,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="2" Grid.Row="1" Stroke="Black" Margin="0,2,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="3" Grid.Row="1" Stroke="Black" Margin="0,2,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="4" Grid.Row="1" Stroke="Black" Margin="0,2,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="5" Grid.Row="1" Stroke="Black" Margin="0,2,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="6" Grid.Row="1" Stroke="Black" Margin="0,2,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="7" Grid.Row="1" Stroke="Black" Margin="0,2,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="8" Grid.Row="1" Stroke="Black" Margin="0,2,2,0" Fill="Azure"/>
+
+            <Rectangle   Grid.Column="1" Grid.Row="2" Stroke="Black" Margin="2,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="2" Grid.Row="2" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="3" Grid.Row="2" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="4" Grid.Row="2" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="5" Grid.Row="2" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="6" Grid.Row="2" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="7" Grid.Row="2" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="8" Grid.Row="2" Stroke="Black" Margin="0,0,2,0" Fill="CadetBlue"/>
+
+            <Rectangle   Grid.Column="1" Grid.Row="3" Stroke="Black" Margin="2,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="2" Grid.Row="3" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="3" Grid.Row="3" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="4" Grid.Row="3" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="5" Grid.Row="3" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="6" Grid.Row="3" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="7" Grid.Row="3" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="8" Grid.Row="3" Stroke="Black" Margin="0,0,2,0" Fill="Azure"/>
+
+            <Rectangle   Grid.Column="1" Grid.Row="4" Stroke="Black" Margin="2,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="2" Grid.Row="4" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="3" Grid.Row="4" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="4" Grid.Row="4" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="5" Grid.Row="4" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="6" Grid.Row="4" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="7" Grid.Row="4" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="8" Grid.Row="4" Stroke="Black" Margin="0,0,2,0" Fill="CadetBlue"/>
+
+            <Rectangle   Grid.Column="1" Grid.Row="5" Stroke="Black" Margin="2,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="2" Grid.Row="5" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="3" Grid.Row="5" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="4" Grid.Row="5" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="5" Grid.Row="5" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="6" Grid.Row="5" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="7" Grid.Row="5" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="8" Grid.Row="5" Stroke="Black" Margin="0,0,2,0" Fill="Azure"/>
+
+            <Rectangle   Grid.Column="1" Grid.Row="6" Stroke="Black" Margin="2,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="2" Grid.Row="6" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="3" Grid.Row="6" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="4" Grid.Row="6" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="5" Grid.Row="6" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="6" Grid.Row="6" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="7" Grid.Row="6" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="8" Grid.Row="6" Stroke="Black" Margin="0,0,2,0" Fill="CadetBlue"/>
+
+            <Rectangle   Grid.Column="1" Grid.Row="7" Stroke="Black" Margin="2,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="2" Grid.Row="7" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="3" Grid.Row="7" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="4" Grid.Row="7" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="5" Grid.Row="7" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="6" Grid.Row="7" Stroke="Black" Margin="0,0,0,0" Fill="Azure"/>
+            <Rectangle   Grid.Column="7" Grid.Row="7" Stroke="Black" Margin="0,0,0,0" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="8" Grid.Row="7" Stroke="Black" Margin="0,0,2,0" Fill="Azure"/>
+
+            <Rectangle   Grid.Column="1" Grid.Row="8" Stroke="Black" Margin="2,0,0,2" Fill="Azure"/>
+            <Rectangle   Grid.Column="2" Grid.Row="8" Stroke="Black" Margin="0,0,0,2" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="3" Grid.Row="8" Stroke="Black" Margin="0,0,0,2" Fill="Azure"/>
+            <Rectangle   Grid.Column="4" Grid.Row="8" Stroke="Black" Margin="0,0,0,2" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="5" Grid.Row="8" Stroke="Black" Margin="0,0,0,2" Fill="Azure"/>
+            <Rectangle   Grid.Column="6" Grid.Row="8" Stroke="Black" Margin="0,0,0,2" Fill="CadetBlue"/>
+            <Rectangle   Grid.Column="7" Grid.Row="8" Stroke="Black" Margin="0,0,0,2" Fill="Azure"/>
+            <Rectangle   Grid.Column="8" Grid.Row="8" Stroke="Black" Margin="0,0,2,2" Fill="CadetBlue"/>
+        </Grid>
+
+
+        <Grid x:Name="Grid_taslar" Grid.Row="1" Margin="77,0,74,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <Border BorderBrush="Black" BorderThickness="3" Grid.RowSpan="8" Grid.ColumnSpan="8" Grid.Column="1" Grid.Row="1" CornerRadius="1" d:IsLocked="True"/>
+            <Label Content=" A" Grid.Column="1" FontWeight="Bold" FontFamily="Arial" VerticalAlignment="Bottom" d:IsLocked="True"/>
+            <Label Content="B" Grid.Column="2" FontWeight="Bold" FontFamily="Arial" VerticalAlignment="Bottom" d:IsLocked="True"/>
+            <Label Content=" C" Grid.Column="3" FontWeight="Bold" FontFamily="Arial" VerticalAlignment="Bottom" d:IsLocked="True"/>
+            <Label Content=" D" Grid.Column="4" FontWeight="Bold" FontFamily="Arial" Margin="1,0,0,0" VerticalAlignment="Bottom" d:IsLocked="True"/>
+            <Label Content=" E" Grid.Column="5" FontWeight="Bold" FontFamily="Arial" VerticalAlignment="Bottom" d:IsLocked="True"/>
+            <Label Content=" F" Grid.Column="6" FontWeight="Bold" FontFamily="Arial" Margin="0,0,1,0" VerticalAlignment="Bottom" d:IsLocked="True"/>
+            <Label Content=" G" Grid.Column="7" FontWeight="Bold" FontFamily="Arial" VerticalAlignment="Bottom" d:IsLocked="True"/>
+            <Label Content=" H" Grid.Column="8" FontWeight="Bold" FontFamily="Arial" Margin="0,0,1,0" VerticalAlignment="Bottom" d:IsLocked="True"/>
+            <Label Content="1" FontWeight="Bold" FontFamily="Arial" Grid.Row="1" HorizontalAlignment="Right" d:IsLocked="True"/>
+            <Label Content=" 2" FontWeight="Bold" FontFamily="Arial" Grid.Row="2" HorizontalAlignment="Right" d:IsLocked="True"/>
+            <Label Content=" 3" FontWeight="Bold" FontFamily="Arial" Grid.Row="3" HorizontalAlignment="Right" d:IsLocked="True"/>
+            <Label Content=" 4" FontWeight="Bold" FontFamily="Arial" Grid.Row="4" HorizontalAlignment="Right" d:IsLocked="True"/>
+            <Label Content="5" FontWeight="Bold" FontFamily="Arial" Grid.Row="5" HorizontalAlignment="Right" d:IsLocked="True"/>
+            <Label Content=" 6" FontWeight="Bold" FontFamily="Arial" Grid.Row="6" HorizontalAlignment="Right" d:IsLocked="True"/>
+            <Label Content=" 7" FontWeight="Bold" FontFamily="Arial" Grid.Row="7" HorizontalAlignment="Right" d:IsLocked="True"/>
+            <Label Content=" 8" FontWeight="Bold" FontFamily="Arial" Grid.Row="8" HorizontalAlignment="Right" d:IsLocked="True"/>
+            <Button x:Name="btn_a1" Content="" Grid.Column="1" Grid.Row="1" Click="eylem_click" Tag="kale_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/kale_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_b1" Content="" Grid.Column="2" Grid.Row="1" Click="eylem_click" Tag="at_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/at_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_c1" Content="" Grid.Column="3" Grid.Row="1" Click="eylem_click" Tag="fil_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/fil_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_d1" Content="" Grid.Column="4" Grid.Row="1" Click="eylem_click" Tag="vezir_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/vezir_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_e1" Content="" Grid.Column="5" Grid.Row="1" Click="eylem_click" Tag="şah_siyah" >
+                <Button.Background>
+                    <ImageBrush ImageSource="img/sah_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_f1" Content="" Grid.Column="6" Grid.Row="1" Click="eylem_click" Tag="fil_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/fil_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_g1" Content="" Grid.Column="7" Grid.Row="1" Click="eylem_click" Tag="at_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/at_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_h1" Content="" Grid.Column="8" Grid.Row="1" Click="eylem_click" Tag="kale_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/kale_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_a2" Content="" Grid.Column="1" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_b2" Content="" Grid.Column="2" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_c2" Content="" Grid.Column="3" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_d2" Content="" Grid.Column="4" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_e2" Content="" Grid.Column="5" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_a3" Content="" Grid.Column="1" Grid.Row="3" Click="eylem_click" Margin="3,0,0,0">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_f2" Content="" Grid.Column="6" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_g2" Content="" Grid.Column="7" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_h2" Content="" Grid.Column="8" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_siyah.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_a7" Content="" Grid.Column="1" Grid.Row="8"  Click="eylem_click" Tag="kale_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/kale_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_b7" Content="" Grid.Column="2" Grid.Row="8"  Click="eylem_click" Tag="at_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/at_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_c7" Content="" Grid.Column="3" Grid.Row="8"  Click="eylem_click" Tag="fil_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/fil_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_d7" Content="" Grid.Column="4" Grid.Row="8"  Click="eylem_click" Tag="vezir_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/vezir_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_e7" Content="" Grid.Column="5" Grid.Row="8"  Click="eylem_click" Tag="şah_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/sah_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_f7" Content="" Grid.Column="6" Grid.Row="8"  Click="eylem_click" Tag="fil_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/fil_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_g7" Content="" Grid.Column="7" Grid.Row="8"  Click="eylem_click" Tag="at_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/at_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_h7" Content="" Grid.Column="8" Grid.Row="8"  Click="eylem_click" Tag="kale_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/kale_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_a8" Content="" Grid.Column="1" Grid.Row="7"  Click="eylem_click" AllowDrop="True" Tag="piyon_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_b8" Content="" Grid.Column="2" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_c8" Content="" Grid.Column="3" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_d8" Content="" Grid.Column="4" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_e8" Content="" Grid.Column="5" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_f8" Content="" Grid.Column="6" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_g8" Content="" Grid.Column="7" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_h8" Content="" Grid.Column="8" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+                <Button.Background>
+                    <ImageBrush ImageSource="img/piyon_beyaz.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_b3" Content="" Grid.Column="2" Grid.Row="3" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_c3" Content="" Grid.Column="3" Grid.Row="3" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_d3" Content="" Grid.Column="4" Grid.Row="3" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_e3" Content="" Grid.Column="5" Grid.Row="3" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_f3" Content="" Grid.Column="6" Grid.Row="3" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_g3" Content="" Grid.Column="7" Grid.Row="3" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_h3" Content="" Grid.Column="8" Grid.Row="3" Click="eylem_click" Margin="0,0,3,0">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_a4" Content="" Grid.Column="1" Grid.Row="4" Click="eylem_click" Margin="3,0,0,0">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_b4" Content="" Grid.Column="2" Grid.Row="4" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_c4" Content="" Grid.Column="3" Grid.Row="4" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_d4" Content="" Grid.Column="4" Grid.Row="4" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_e4" Content="" Grid.Column="5" Grid.Row="4" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_f4" Content="" Grid.Column="6" Grid.Row="4" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_g4" Content="" Grid.Column="7" Grid.Row="4" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_h4" Content="" Grid.Column="8" Grid.Row="4" Click="eylem_click" Margin="0,0,3,0">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_a5" Content="" Grid.Column="1" Grid.Row="5" Click="eylem_click" Margin="3,0,0,0">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_b5" Content="" Grid.Column="2" Grid.Row="5" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_c5" Content="" Grid.Column="3" Grid.Row="5" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_d5" Content="" Grid.Column="4" Grid.Row="5" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_e5" Content="" Grid.Column="5" Grid.Row="5" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_f5" Content="" Grid.Column="6" Grid.Row="5" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_g5" Content="" Grid.Column="7" Grid.Row="5" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_h5" Content="" Grid.Column="8" Grid.Row="5" Click="eylem_click" Margin="0,0,3,0">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_a6" Content="" Grid.Column="1" Grid.Row="6" Click="eylem_click" Margin="3,0,0,0">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_b6" Content="" Grid.Column="2" Grid.Row="6" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_c6" Content="" Grid.Column="3" Grid.Row="6" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_d6" Content="" Grid.Column="4" Grid.Row="6" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_e6" Content="" Grid.Column="5" Grid.Row="6" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_f6" Content="" Grid.Column="6" Grid.Row="6" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_g6" Content="" Grid.Column="7" Grid.Row="6" Click="eylem_click">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn_h6" Content="" Grid.Column="8" Grid.Row="6" Click="eylem_click" Margin="0,0,3,0">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+
+    </Grid>
+</Window>
