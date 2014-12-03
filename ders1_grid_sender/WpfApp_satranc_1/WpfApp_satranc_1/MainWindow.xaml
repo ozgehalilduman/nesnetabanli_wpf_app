@@ -108,7 +108,7 @@
         </Grid>
 
 
-        <Grid x:Name="Grid_taslar" Grid.Row="1" Margin="77,0,74,10">
+        <Grid x:Name="Grid_taslar" Grid.Row="1" Margin="77,0,74,10" d:IsLocked="True">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="10*"/>
                 <ColumnDefinition Width="10*"/>
@@ -435,7 +435,7 @@
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_b6" Content="" Grid.Column="2" Grid.Row="6" Click="eylem_click">
+            <Button x:Name="btn_b6" Content="" Grid.Column="2" Grid.Row="6" Click="eylem_click" HorizontalAlignment="Right" Width="36">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
@@ -471,6 +471,19 @@
                 </Button.Background>
             </Button>
         </Grid>
+
+        <Label Content="HAREKET EDEN TAS" HorizontalAlignment="Left" Margin="9,-1,0,0" Grid.RowSpan="2" VerticalAlignment="Top" FontSize="8"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="42" Margin="10,20,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="47">
+            <Button x:Name="btn_hareketeden" />
+        </Border>
+        <Label Content="SECİLEN TAS" HorizontalAlignment="Left" Margin="10,67,0,0" Grid.RowSpan="2" VerticalAlignment="Top" FontSize="8"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="42" Margin="10,88,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="47">
+            <Button x:Name="btn_secilen" />
+        </Border>
+        <Label Content="YENİLEN TAS" HorizontalAlignment="Left" Margin="9,135,0,0" Grid.RowSpan="2" VerticalAlignment="Top" FontSize="8"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="42" Margin="10,156,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="47">
+            <Button x:Name="btn_yenilen" />
+        </Border>
 
 
     </Grid>
