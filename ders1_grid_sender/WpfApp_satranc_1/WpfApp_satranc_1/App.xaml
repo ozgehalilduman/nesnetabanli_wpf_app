@@ -3,6 +3,43 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        
+        <Style x:Key="YeniButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border"
+                               BorderThickness="1"
+                               Padding="1,1"
+                               BorderBrush="Black"
+                               CornerRadius="1"
+                               >
+                                <Grid Background="{TemplateBinding Background}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                <VisualStateManager.VisualStateGroups>
+                                        <VisualStateGroup x:Name="CommonStates">
+                                            <VisualState x:Name="Normal"/>
+                                            <VisualState x:Name="MouseOver"/>
+                                        </VisualStateGroup>
+                                    </VisualStateManager.VisualStateGroups>
+                                </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderThickness" Value="3" />
+                                <Setter TargetName="border" Property="Padding" Value="4,3" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="Red" />
+                                <Setter TargetName="border" Property="CornerRadius" Value="2" />
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="BorderThickness" Value="3" />
+                                <Setter TargetName="border" Property="Padding" Value="4,3" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="LightGreen" />
+                                <Setter TargetName="border" Property="CornerRadius" Value="2" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>

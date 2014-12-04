@@ -43,7 +43,7 @@ namespace WpfApp_satranc_1
                 {
                     islem = 1;
                     ////hangi tası hareket ettiriyoruz
-                    MessageBox.Show(hangi_tas(tas.Tag.ToString()));
+                    //MessageBox.Show(hangi_tas(tas.Tag.ToString()));
                     hareket_ihtimalleri(tas);
                 }
                 else
@@ -111,7 +111,7 @@ namespace WpfApp_satranc_1
                     hareketden_tas.Tag = null;
                 }
                 else
-                { MessageBox.Show("AYNI RENK taşlar Bir Birini YİYEMEZ"); }
+                { MessageBox.Show("Hareket Edecek Taş Değiştirildi"); hareketden_tas=tas;hareket_ihtimalleri(tas); }
             }
             //siranın diger tas grubuna geçmesi
             if (sira_kimde == 'b') { sira_kimde = 's'; }else{ sira_kimde = 'b'; }
@@ -148,7 +148,58 @@ namespace WpfApp_satranc_1
             string tas_konum = tasin_konumu(tas.Name);
             char tas_renk = tasin_rengi(tas.Tag.ToString());
             string tas_tur = hangi_tas(tas.Tag.ToString());
-            MessageBox.Show("TASIN konumu=" +" (sutun)"+tas_konum[0] +",(satır)" +tas_konum[1] + " ,rengi=" + tas_renk + ", turu=" + tas_tur);
+            string hareket_bilgi = "TASIN konumu=" + " (sutun)" + tas_konum[0] + ",(satır)" + tas_konum[1] + " ,rengi=" + tas_renk + ", turu=" + tas_tur;
+            lst_hareket.Items.Add(hareket_bilgi);
+            rotaboya(tas_tur, tas_renk, tas_konum[0], tas_konum[1]);
+        }
+
+        private void rotaboya(string tas_tur, char tas_renk, char sutun, char satir)
+        {
+            List<string> isaretlenecekler=new List<string>();
+            string isim;
+            byte yenisatir;
+            foreach (Button btn in Grid_taslar.Children.OfType<Button>())
+            {
+                btn.Content = "";
+                btn.Foreground = Brushes.Black;
+            }
+            if (tas_tur == "piyon")
+            {                
+                if (tas_renk == 'b') {
+                    yenisatir = Convert.ToByte(satir.ToString());
+                    yenisatir--;                    
+                    isim = "btn_" + sutun.ToString() + yenisatir.ToString();
+                    isaretlenecekler.Add(isim);
+                    if (satir == '7') {
+                        yenisatir--;
+                        isim = "btn_" + sutun.ToString() + yenisatir.ToString();
+                        isaretlenecekler.Add(isim);
+                    }
+                    foreach (Button btn in Grid_taslar.Children.OfType<Button>().Where(x => isaretlenecekler.Contains(x.Name)))
+                    {
+                        //btn.Foreground = Brushes.White;
+                        btn.Content = "+";
+                    }
+                } //    if (tas_renk == 'b')
+                if (tas_renk == 's')
+                {
+                    yenisatir = Convert.ToByte(satir.ToString());
+                    yenisatir++;
+                    isim = "btn_" + sutun.ToString() + yenisatir.ToString();
+                    isaretlenecekler.Add(isim);
+                    if (satir == '2')
+                    {
+                        yenisatir++;
+                        isim = "btn_" + sutun.ToString() + yenisatir.ToString();
+                        isaretlenecekler.Add(isim);
+                    }
+                    foreach (Button btn in Grid_taslar.Children.OfType<Button>().Where(x => isaretlenecekler.Contains(x.Name)))
+                    {
+                        //btn.Foreground = Brushes.White;
+                        btn.Content = "+";
+                    }
+                } //    if (tas_renk == 's')
+            }
         }
     }
 }

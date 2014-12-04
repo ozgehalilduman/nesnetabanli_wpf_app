@@ -4,11 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WpfApp_satranc_1.MainWindow"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="256*"/>
+            <ColumnDefinition Width="261*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="0*"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Grid x:Name="Grid__zemin" Grid.Row="1" Margin="77,0,74,10" d:IsLocked="True">
+        <Grid x:Name="Grid__zemin" Grid.Row="1" Margin="43,-1,108,11" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="10*"/>
                 <ColumnDefinition Width="10*"/>
@@ -108,7 +112,7 @@
         </Grid>
 
 
-        <Grid x:Name="Grid_taslar" Grid.Row="1" Margin="77,0,74,10">
+        <Grid x:Name="Grid_taslar" Grid.Row="1" Margin="43,-1,108,11" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="10*"/>
                 <ColumnDefinition Width="10*"/>
@@ -133,7 +137,7 @@
                 <RowDefinition Height="10*"/>
                 <RowDefinition Height="10*"/>
             </Grid.RowDefinitions>
-            <Border BorderBrush="Black" BorderThickness="3" Grid.RowSpan="8" Grid.ColumnSpan="8" Grid.Column="1" Grid.Row="1" CornerRadius="1" d:IsLocked="True"/>
+            <Border BorderBrush="Black" BorderThickness="3" Grid.RowSpan="8" Grid.ColumnSpan="8" Grid.Column="1" Grid.Row="1" CornerRadius="1"/>
             <Label Content=" A" Grid.Column="1" FontWeight="Bold" FontFamily="Arial" VerticalAlignment="Bottom" d:IsLocked="True"/>
             <Label Content="B" Grid.Column="2" FontWeight="Bold" FontFamily="Arial" VerticalAlignment="Bottom" d:IsLocked="True"/>
             <Label Content=" C" Grid.Column="3" FontWeight="Bold" FontFamily="Arial" VerticalAlignment="Bottom" d:IsLocked="True"/>
@@ -150,322 +154,322 @@
             <Label Content=" 6" FontWeight="Bold" FontFamily="Arial" Grid.Row="6" HorizontalAlignment="Right" d:IsLocked="True"/>
             <Label Content=" 7" FontWeight="Bold" FontFamily="Arial" Grid.Row="7" HorizontalAlignment="Right" d:IsLocked="True"/>
             <Label Content=" 8" FontWeight="Bold" FontFamily="Arial" Grid.Row="8" HorizontalAlignment="Right" d:IsLocked="True"/>
-            <Button x:Name="btn_a1" Content="" Grid.Column="1" Grid.Row="1" Click="eylem_click" Tag="kale_siyah">
+            <Button x:Name="btn_a1" Style="{StaticResource YeniButtonStyle}" Content="" Grid.Column="1" Grid.Row="1" Click="eylem_click" Tag="kale_siyah" BorderBrush="#FFFF0202" BorderThickness="2">
                 <Button.Background>
                     <ImageBrush ImageSource="img/kale_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_b1" Content="" Grid.Column="2" Grid.Row="1" Click="eylem_click" Tag="at_siyah">
+            <Button x:Name="btn_b1" Content="" Grid.Column="2" Grid.Row="1" Click="eylem_click" Tag="at_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/at_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_c1" Content="" Grid.Column="3" Grid.Row="1" Click="eylem_click" Tag="fil_siyah">
+            <Button x:Name="btn_c1" Content="" Grid.Column="3" Grid.Row="1" Click="eylem_click" Tag="fil_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/fil_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_d1" Content="" Grid.Column="4" Grid.Row="1" Click="eylem_click" Tag="vezir_siyah">
+            <Button x:Name="btn_d1" Content="" Grid.Column="4" Grid.Row="1" Click="eylem_click" Tag="vezir_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/vezir_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_e1" Content="" Grid.Column="5" Grid.Row="1" Click="eylem_click" Tag="şah_siyah" >
+            <Button x:Name="btn_e1" Content="" Grid.Column="5" Grid.Row="1" Click="eylem_click" Tag="şah_siyah" Style="{DynamicResource YeniButtonStyle}" >
                 <Button.Background>
                     <ImageBrush ImageSource="img/sah_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_f1" Content="" Grid.Column="6" Grid.Row="1" Click="eylem_click" Tag="fil_siyah">
+            <Button x:Name="btn_f1" Content="" Grid.Column="6" Grid.Row="1" Click="eylem_click" Tag="fil_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/fil_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_g1" Content="" Grid.Column="7" Grid.Row="1" Click="eylem_click" Tag="at_siyah">
+            <Button x:Name="btn_g1" Content="" Grid.Column="7" Grid.Row="1" Click="eylem_click" Tag="at_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/at_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_h1" Content="" Grid.Column="8" Grid.Row="1" Click="eylem_click" Tag="kale_siyah">
+            <Button x:Name="btn_h1" Content="" Grid.Column="8" Grid.Row="1" Click="eylem_click" Tag="kale_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/kale_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_a2" Content="" Grid.Column="1" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+            <Button x:Name="btn_a2" Content="" Grid.Column="1" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_b2" Content="" Grid.Column="2" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+            <Button x:Name="btn_b2" Content="" Grid.Column="2" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_c2" Content="" Grid.Column="3" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+            <Button x:Name="btn_c2" Content="" Grid.Column="3" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_d2" Content="" Grid.Column="4" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+            <Button x:Name="btn_d2" Content="" Grid.Column="4" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_e2" Content="" Grid.Column="5" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+            <Button x:Name="btn_e2" Content="" Grid.Column="5" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_a3" Content="" Grid.Column="1" Grid.Row="3" Click="eylem_click" Margin="3,0,0,0">
+            <Button x:Name="btn_a3" Content="" Grid.Column="1" Grid.Row="3" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_f2" Content="" Grid.Column="6" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+            <Button x:Name="btn_f2" Content="" Grid.Column="6" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_g2" Content="" Grid.Column="7" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+            <Button x:Name="btn_g2" Content="" Grid.Column="7" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_h2" Content="" Grid.Column="8" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah">
+            <Button x:Name="btn_h2" Content="" Grid.Column="8" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_a7" Content="" Grid.Column="1" Grid.Row="8"  Click="eylem_click" Tag="kale_beyaz">
+            <Button x:Name="btn_a8" Content="" Grid.Column="1" Grid.Row="8"  Click="eylem_click" Tag="kale_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/kale_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_b7" Content="" Grid.Column="2" Grid.Row="8"  Click="eylem_click" Tag="at_beyaz">
+            <Button x:Name="btn_b8" Content="" Grid.Column="2" Grid.Row="8"  Click="eylem_click" Tag="at_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/at_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_c7" Content="" Grid.Column="3" Grid.Row="8"  Click="eylem_click" Tag="fil_beyaz">
+            <Button x:Name="btn_c8" Content="" Grid.Column="3" Grid.Row="8"  Click="eylem_click" Tag="fil_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/fil_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_d7" Content="" Grid.Column="4" Grid.Row="8"  Click="eylem_click" Tag="vezir_beyaz">
+            <Button x:Name="btn_d8" Content="" Grid.Column="4" Grid.Row="8"  Click="eylem_click" Tag="vezir_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/vezir_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_e7" Content="" Grid.Column="5" Grid.Row="8"  Click="eylem_click" Tag="şah_beyaz">
+            <Button x:Name="btn_e8" Content="" Grid.Column="5" Grid.Row="8"  Click="eylem_click" Tag="şah_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/sah_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_f7" Content="" Grid.Column="6" Grid.Row="8"  Click="eylem_click" Tag="fil_beyaz">
+            <Button x:Name="btn_f8" Content="" Grid.Column="6" Grid.Row="8"  Click="eylem_click" Tag="fil_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/fil_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_g7" Content="" Grid.Column="7" Grid.Row="8"  Click="eylem_click" Tag="at_beyaz">
+            <Button x:Name="btn_g8" Content="" Grid.Column="7" Grid.Row="8"  Click="eylem_click" Tag="at_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/at_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_h7" Content="" Grid.Column="8" Grid.Row="8"  Click="eylem_click" Tag="kale_beyaz">
+            <Button x:Name="btn_h8" Content="" Grid.Column="8" Grid.Row="8"  Click="eylem_click" Tag="kale_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/kale_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_a8" Content="" Grid.Column="1" Grid.Row="7"  Click="eylem_click" AllowDrop="True" Tag="piyon_beyaz">
+            <Button x:Name="btn_a7" Content="" Grid.Column="1" Grid.Row="7"  Click="eylem_click" AllowDrop="True" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_b8" Content="" Grid.Column="2" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+            <Button x:Name="btn_b7" Content="" Grid.Column="2" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_c8" Content="" Grid.Column="3" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+            <Button x:Name="btn_c7" Content="" Grid.Column="3" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_d8" Content="" Grid.Column="4" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+            <Button x:Name="btn_d7" Content="" Grid.Column="4" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_e8" Content="" Grid.Column="5" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+            <Button x:Name="btn_e7" Content="" Grid.Column="5" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_f8" Content="" Grid.Column="6" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+            <Button x:Name="btn_f7" Content="" Grid.Column="6" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_g8" Content="" Grid.Column="7" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+            <Button x:Name="btn_g7" Content="" Grid.Column="7" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_h8" Content="" Grid.Column="8" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz">
+            <Button x:Name="btn_h7" Content="" Grid.Column="8" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_b3" Content="" Grid.Column="2" Grid.Row="3" Click="eylem_click">
+            <Button x:Name="btn_b3" Content="" Grid.Column="2" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_c3" Content="" Grid.Column="3" Grid.Row="3" Click="eylem_click">
+            <Button x:Name="btn_c3" Content="" Grid.Column="3" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_d3" Content="" Grid.Column="4" Grid.Row="3" Click="eylem_click">
+            <Button x:Name="btn_d3" Content="" Grid.Column="4" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_e3" Content="" Grid.Column="5" Grid.Row="3" Click="eylem_click">
+            <Button x:Name="btn_e3" Content="" Grid.Column="5" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_f3" Content="" Grid.Column="6" Grid.Row="3" Click="eylem_click">
+            <Button x:Name="btn_f3" Content="" Grid.Column="6" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_g3" Content="" Grid.Column="7" Grid.Row="3" Click="eylem_click">
+            <Button x:Name="btn_g3" Content="" Grid.Column="7" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_h3" Content="" Grid.Column="8" Grid.Row="3" Click="eylem_click" Margin="0,0,3,0">
+            <Button x:Name="btn_h3" Content="" Grid.Column="8" Grid.Row="3" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_a4" Content="" Grid.Column="1" Grid.Row="4" Click="eylem_click" Margin="3,0,0,0">
+            <Button x:Name="btn_a4" Content="" Grid.Column="1" Grid.Row="4" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_b4" Content="" Grid.Column="2" Grid.Row="4" Click="eylem_click">
+            <Button x:Name="btn_b4" Content="" Grid.Column="2" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_c4" Content="" Grid.Column="3" Grid.Row="4" Click="eylem_click">
+            <Button x:Name="btn_c4" Content="" Grid.Column="3" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_d4" Content="" Grid.Column="4" Grid.Row="4" Click="eylem_click">
+            <Button x:Name="btn_d4" Content="" Grid.Column="4" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_e4" Content="" Grid.Column="5" Grid.Row="4" Click="eylem_click">
+            <Button x:Name="btn_e4" Content="" Grid.Column="5" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_f4" Content="" Grid.Column="6" Grid.Row="4" Click="eylem_click">
+            <Button x:Name="btn_f4" Content="" Grid.Column="6" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_g4" Content="" Grid.Column="7" Grid.Row="4" Click="eylem_click">
+            <Button x:Name="btn_g4" Content="" Grid.Column="7" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_h4" Content="" Grid.Column="8" Grid.Row="4" Click="eylem_click" Margin="0,0,3,0">
+            <Button x:Name="btn_h4" Content="" Grid.Column="8" Grid.Row="4" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_a5" Content="" Grid.Column="1" Grid.Row="5" Click="eylem_click" Margin="3,0,0,0">
+            <Button x:Name="btn_a5" Content="" Grid.Column="1" Grid.Row="5" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_b5" Content="" Grid.Column="2" Grid.Row="5" Click="eylem_click">
+            <Button x:Name="btn_b5" Content="" Grid.Column="2" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_c5" Content="" Grid.Column="3" Grid.Row="5" Click="eylem_click">
+            <Button x:Name="btn_c5" Content="" Grid.Column="3" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_d5" Content="" Grid.Column="4" Grid.Row="5" Click="eylem_click">
+            <Button x:Name="btn_d5" Content="" Grid.Column="4" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_e5" Content="" Grid.Column="5" Grid.Row="5" Click="eylem_click">
+            <Button x:Name="btn_e5" Content="" Grid.Column="5" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_f5" Content="" Grid.Column="6" Grid.Row="5" Click="eylem_click">
+            <Button x:Name="btn_f5" Content="" Grid.Column="6" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_g5" Content="" Grid.Column="7" Grid.Row="5" Click="eylem_click">
+            <Button x:Name="btn_g5" Content="" Grid.Column="7" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_h5" Content="" Grid.Column="8" Grid.Row="5" Click="eylem_click" Margin="0,0,3,0">
+            <Button x:Name="btn_h5" Content="" Grid.Column="8" Grid.Row="5" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_a6" Content="" Grid.Column="1" Grid.Row="6" Click="eylem_click" Margin="3,0,0,0">
+            <Button x:Name="btn_a6" Content="" Grid.Column="1" Grid.Row="6" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_b6" Content="" Grid.Column="2" Grid.Row="6" Click="eylem_click">
+            <Button x:Name="btn_b6" Content="" Grid.Column="2" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_c6" Content="" Grid.Column="3" Grid.Row="6" Click="eylem_click">
+            <Button x:Name="btn_c6" Content="" Grid.Column="3" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_d6" Content="" Grid.Column="4" Grid.Row="6" Click="eylem_click">
+            <Button x:Name="btn_d6" Content="" Grid.Column="4" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_e6" Content="" Grid.Column="5" Grid.Row="6" Click="eylem_click">
+            <Button x:Name="btn_e6" Content="" Grid.Column="5" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_f6" Content="" Grid.Column="6" Grid.Row="6" Click="eylem_click">
+            <Button x:Name="btn_f6" Content="" Grid.Column="6" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_g6" Content="" Grid.Column="7" Grid.Row="6" Click="eylem_click">
+            <Button x:Name="btn_g6" Content="" Grid.Column="7" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_h6" Content="" Grid.Column="8" Grid.Row="6" Click="eylem_click" Margin="0,0,3,0">
+            <Button x:Name="btn_h6" Content="" Grid.Column="8" Grid.Row="6" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
@@ -496,6 +500,8 @@
                 </Button.Background>
             </Button>
         </Border>
+        <ListBox x:Name="lst_hareket" Grid.RowSpan="2" BorderBrush="Black" BorderThickness="2" Grid.ColumnSpan="2" Height="39" VerticalAlignment="Bottom"/>
+        <Label Content="HAREKETLER" Margin="0,259,156,0" Grid.RowSpan="2" VerticalAlignment="Top" FontSize="8"/>
 
 
     </Grid>
