@@ -158,6 +158,7 @@ namespace WpfApp_satranc_1
             List<string> isaretlenecekler=new List<string>();
             string isim;
             byte yenisatir;
+            byte yenisutun;
             foreach (Button btn in Grid_taslar.Children.OfType<Button>())
             {
                 btn.Content = "";
@@ -199,7 +200,63 @@ namespace WpfApp_satranc_1
                         btn.Content = "+";
                     }
                 } //    if (tas_renk == 's')
-            }
+            }//if (tas_tur == "piyon")
+            if (tas_tur == "at")
+            {
+                //1.hareket:
+                yenisatir = Convert.ToByte(satir.ToString());
+                yenisutun = Convert.ToByte(sutun.ToString());
+                yenisatir--;yenisutun -= 2;
+                isim = "btn_" + yenisutun.ToString() + yenisatir.ToString();
+                isaretlenecekler.Add(isim);
+                //2.hareket:
+                yenisatir = Convert.ToByte(satir.ToString());
+                yenisutun = Convert.ToByte(sutun.ToString());
+                yenisatir-=2; yenisutun--;
+                isim = "btn_" + yenisutun.ToString() + yenisatir.ToString();
+                isaretlenecekler.Add(isim);
+                //3.hareket:
+                yenisatir = Convert.ToByte(satir.ToString());
+                yenisutun = Convert.ToByte(sutun.ToString());
+                yenisatir-= 2; yenisutun++;
+                isim = "btn_" + yenisutun.ToString() + yenisatir.ToString();
+                isaretlenecekler.Add(isim);
+                //4.hareket:
+                yenisatir = Convert.ToByte(satir.ToString());
+                yenisutun = Convert.ToByte(sutun.ToString());
+                yenisatir--; yenisutun+=2;
+                isim = "btn_" + yenisutun.ToString() + yenisatir.ToString();
+                isaretlenecekler.Add(isim);
+                //5.hareket:
+                yenisatir = Convert.ToByte(satir.ToString());
+                yenisutun = Convert.ToByte(sutun.ToString());
+                yenisatir++; yenisutun+=2;
+                isim = "btn_" + yenisutun.ToString() + yenisatir.ToString();
+                isaretlenecekler.Add(isim);
+                //6.hareket:
+                yenisatir = Convert.ToByte(satir.ToString());
+                yenisutun = Convert.ToByte(sutun.ToString());
+                yenisatir += 2; yenisutun++;
+                isim = "btn_" + yenisutun.ToString() + yenisatir.ToString();
+                isaretlenecekler.Add(isim);
+                //7.hareket:
+                yenisatir = Convert.ToByte(satir.ToString());
+                yenisutun = Convert.ToByte(sutun.ToString());
+                yenisatir += 2; yenisutun--;
+                isim = "btn_" + yenisutun.ToString() + yenisatir.ToString();
+                isaretlenecekler.Add(isim);
+                //8.hareket:
+                yenisatir = Convert.ToByte(satir.ToString());
+                yenisutun = Convert.ToByte(sutun.ToString());
+                yenisatir++; yenisutun-=2;
+                isim = "btn_" + yenisutun.ToString() + yenisatir.ToString();
+                isaretlenecekler.Add(isim);
+                foreach (Button btn in Grid_taslar.Children.OfType<Button>().Where(x => isaretlenecekler.Contains(x.Name)))
+                {
+                    //btn.Foreground = Brushes.White;
+                    btn.Content = "+";
+                }
+            }// if (tas_tur == "at")
         }
     }
 }
