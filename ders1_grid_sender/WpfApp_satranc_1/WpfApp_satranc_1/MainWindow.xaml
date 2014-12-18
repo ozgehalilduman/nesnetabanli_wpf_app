@@ -154,322 +154,322 @@
             <Label Content=" 6" FontWeight="Bold" FontFamily="Arial" Grid.Row="6" HorizontalAlignment="Right" d:IsLocked="True"/>
             <Label Content=" 7" FontWeight="Bold" FontFamily="Arial" Grid.Row="7" HorizontalAlignment="Right" d:IsLocked="True"/>
             <Label Content=" 8" FontWeight="Bold" FontFamily="Arial" Grid.Row="8" HorizontalAlignment="Right" d:IsLocked="True"/>
-            <Button x:Name="btn_11" Style="{StaticResource YeniButtonStyle}" Content="" Grid.Column="1" Grid.Row="1" Click="eylem_click" Tag="kale_siyah" BorderBrush="#FFFF0202" BorderThickness="2">
+            <Button x:Name="btn_11" Style="{StaticResource YeniButtonStyle}" Content="" Grid.Column="1" Grid.Row="1" Click="eylem_click" Tag="kale_siyah" BorderBrush="#FFFF0202" BorderThickness="2" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/kale_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_21" Content="" Grid.Column="2" Grid.Row="1" Click="eylem_click" Tag="at_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_21" Content="" Grid.Column="2" Grid.Row="1" Click="eylem_click" Tag="at_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/at_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_31" Content="" Grid.Column="3" Grid.Row="1" Click="eylem_click" Tag="fil_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_31" Content="" Grid.Column="3" Grid.Row="1" Click="eylem_click" Tag="fil_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/fil_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_41" Content="" Grid.Column="4" Grid.Row="1" Click="eylem_click" Tag="vezir_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_41" Content="" Grid.Column="4" Grid.Row="1" Click="eylem_click" Tag="vezir_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/vezir_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_51" Content="" Grid.Column="5" Grid.Row="1" Click="eylem_click" Tag="şah_siyah" Style="{DynamicResource YeniButtonStyle}" >
+            <Button x:Name="btn_51" Content="" Grid.Column="5" Grid.Row="1" Click="eylem_click" Tag="şah_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold" >
                 <Button.Background>
                     <ImageBrush ImageSource="img/sah_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_61" Content="" Grid.Column="6" Grid.Row="1" Click="eylem_click" Tag="fil_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_61" Content="" Grid.Column="6" Grid.Row="1" Click="eylem_click" Tag="fil_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/fil_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_71" Content="" Grid.Column="7" Grid.Row="1" Click="eylem_click" Tag="at_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_71" Content="" Grid.Column="7" Grid.Row="1" Click="eylem_click" Tag="at_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/at_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_81" Content="" Grid.Column="8" Grid.Row="1" Click="eylem_click" Tag="kale_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_81" Content="" Grid.Column="8" Grid.Row="1" Click="eylem_click" Tag="kale_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/kale_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_12" Content="" Grid.Column="1" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_12" Content="" Grid.Column="1" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_22" Content="" Grid.Column="2" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_22" Content="" Grid.Column="2" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_32" Content="" Grid.Column="3" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_32" Content="" Grid.Column="3" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_42" Content="" Grid.Column="4" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_42" Content="" Grid.Column="4" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_52" Content="" Grid.Column="5" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_52" Content="" Grid.Column="5" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_13" Content="" Grid.Column="1" Grid.Row="3" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_13"  Content="" Grid.Column="1" Grid.Row="3" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontWeight="Bold"  FontFamily="SPACEWORM">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_62" Content="" Grid.Column="6" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_62" Content="" Grid.Column="6" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_72" Content="" Grid.Column="7" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_72" Content="" Grid.Column="7" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_82" Content="" Grid.Column="8" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_82" Content="" Grid.Column="8" Grid.Row="2"  Click="eylem_click" Tag="piyon_siyah" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_siyah.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_18" Content="" Grid.Column="1" Grid.Row="8"  Click="eylem_click" Tag="kale_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_18" Content="" Grid.Column="1" Grid.Row="8"  Click="eylem_click" Tag="kale_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/kale_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_28" Content="" Grid.Column="2" Grid.Row="8"  Click="eylem_click" Tag="at_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_28" Content="" Grid.Column="2" Grid.Row="8"  Click="eylem_click" Tag="at_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/at_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_38" Content="" Grid.Column="3" Grid.Row="8"  Click="eylem_click" Tag="fil_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_38" Content="" Grid.Column="3" Grid.Row="8"  Click="eylem_click" Tag="fil_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/fil_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_48" Content="" Grid.Column="4" Grid.Row="8"  Click="eylem_click" Tag="vezir_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_48" Content="" Grid.Column="4" Grid.Row="8"  Click="eylem_click" Tag="vezir_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/vezir_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_58" Content="" Grid.Column="5" Grid.Row="8"  Click="eylem_click" Tag="şah_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_58" Content="" Grid.Column="5" Grid.Row="8"  Click="eylem_click" Tag="şah_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/sah_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_68" Content="" Grid.Column="6" Grid.Row="8"  Click="eylem_click" Tag="fil_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_68" Content="" Grid.Column="6" Grid.Row="8"  Click="eylem_click" Tag="fil_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/fil_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_78" Content="" Grid.Column="7" Grid.Row="8"  Click="eylem_click" Tag="at_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_78" Content="" Grid.Column="7" Grid.Row="8"  Click="eylem_click" Tag="at_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/at_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_88" Content="" Grid.Column="8" Grid.Row="8"  Click="eylem_click" Tag="kale_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_88" Content="" Grid.Column="8" Grid.Row="8"  Click="eylem_click" Tag="kale_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/kale_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_17" Content="" Grid.Column="1" Grid.Row="7"  Click="eylem_click" AllowDrop="True" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_17" Content="" Grid.Column="1" Grid.Row="7"  Click="eylem_click" AllowDrop="True" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_27" Content="" Grid.Column="2" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_27" Content="" Grid.Column="2" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_37" Content="" Grid.Column="3" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_37" Content="" Grid.Column="3" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_47" Content="" Grid.Column="4" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_47" Content="" Grid.Column="4" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_57" Content="" Grid.Column="5" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_57" Content="" Grid.Column="5" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_67" Content="" Grid.Column="6" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_67" Content="" Grid.Column="6" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_77" Content="" Grid.Column="7" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_77" Content="" Grid.Column="7" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_87" Content="" Grid.Column="8" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_87" Content="" Grid.Column="8" Grid.Row="7"  Click="eylem_click" Tag="piyon_beyaz" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush ImageSource="img/piyon_beyaz.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_23" Content="" Grid.Column="2" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_23" Content="" Grid.Column="2" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_33" Content="" Grid.Column="3" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_33" Content="" Grid.Column="3" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_43" Content="" Grid.Column="4" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_43" Content="" Grid.Column="4" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_53" Content="" Grid.Column="5" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_53" Content="" Grid.Column="5" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_63" Content="" Grid.Column="6" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_63" Content="" Grid.Column="6" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_73" Content="" Grid.Column="7" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_73" Content="" Grid.Column="7" Grid.Row="3" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_83" Content="" Grid.Column="8" Grid.Row="3" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_83" Content="" Grid.Column="8" Grid.Row="3" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_14" Content="" Grid.Column="1" Grid.Row="4" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_14" Content="" Grid.Column="1" Grid.Row="4" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_24" Content="" Grid.Column="2" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_24" Content="" Grid.Column="2" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_34" Content="" Grid.Column="3" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_34" Content="" Grid.Column="3" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_44" Content="" Grid.Column="4" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_44" Content="" Grid.Column="4" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_54" Content="" Grid.Column="5" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_54" Content="" Grid.Column="5" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_64" Content="" Grid.Column="6" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_64" Content="" Grid.Column="6" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_74" Content="" Grid.Column="7" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_74" Content="" Grid.Column="7" Grid.Row="4" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_84" Content="" Grid.Column="8" Grid.Row="4" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_84" Content="" Grid.Column="8" Grid.Row="4" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_15" Content="" Grid.Column="1" Grid.Row="5" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_15" Content="" Grid.Column="1" Grid.Row="5" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_25" Content="" Grid.Column="2" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_25" Content="" Grid.Column="2" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_35" Content="" Grid.Column="3" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_35" Content="" Grid.Column="3" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_45" Content="" Grid.Column="4" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_45" Content="" Grid.Column="4" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_55" Content="" Grid.Column="5" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_55" Content="" Grid.Column="5" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_65" Content="" Grid.Column="6" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_65" Content="" Grid.Column="6" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_75" Content="" Grid.Column="7" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_75" Content="" Grid.Column="7" Grid.Row="5" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_85" Content="" Grid.Column="8" Grid.Row="5" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_85" Content="" Grid.Column="8" Grid.Row="5" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_16" Content="" Grid.Column="1" Grid.Row="6" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_16" Content="" Grid.Column="1" Grid.Row="6" Click="eylem_click" Margin="3,0,0,0" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_26" Content="" Grid.Column="2" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_26" Content="" Grid.Column="2" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_36" Content="" Grid.Column="3" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_36" Content="" Grid.Column="3" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_46" Content="" Grid.Column="4" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_46" Content="" Grid.Column="4" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_56" Content="" Grid.Column="5" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_56" Content="" Grid.Column="5" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_66" Content="" Grid.Column="6" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_66" Content="" Grid.Column="6" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_76" Content="" Grid.Column="7" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_76" Content="" Grid.Column="7" Grid.Row="6" Click="eylem_click" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_86" Content="" Grid.Column="8" Grid.Row="6" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}">
+            <Button x:Name="btn_86" Content="" Grid.Column="8" Grid.Row="6" Click="eylem_click" Margin="0,0,3,0" Style="{DynamicResource YeniButtonStyle}" FontSize="26.667" FontFamily="SPACEWORM" FontWeight="Bold">
                 <Button.Background>
                     <ImageBrush/>
                 </Button.Background>

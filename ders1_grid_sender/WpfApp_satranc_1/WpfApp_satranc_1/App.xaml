@@ -4,9 +4,10 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <Style x:Key="YeniButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="Blue"/>
             <Setter Property="Template">
                 <Setter.Value>
-                    <ControlTemplate TargetType="Button">
+                    <ControlTemplate TargetType="Button">                        
                         <Border Name="border"
                                BorderThickness="1"
                                Padding="1,1"
